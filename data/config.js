@@ -17,7 +17,7 @@ export const projects = {
       title: 'Pathfinding Visualizer',
       description:
         'A tool for visualizing pathfinding utilizing the breadth first search algorithm',
-      link: 'https://saxolandon.github.io/pathfinding-visualizer',
+      link: 'saxolandon.github.io/pathfinding-visualizer',
       github: 'saxolandon/pathfinding-visualizer'
     },
     {

@@ -22,7 +22,7 @@ export default function Projects() {
               <div className="flex items-center flex-wrap -m-3 pt-5">
                 {item.link && (
                   <a
-                    href={item.link}
+                    href={`https://${item.link}`}
                     className="flex items-center  py-1 px-3"
                     target="_blank"
                     rel="noreferrer"
