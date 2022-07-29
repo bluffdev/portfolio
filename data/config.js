@@ -1,11 +1,12 @@
 export const meta = {
-  title: 'LeBron James - Web Developer and Designer',
-  description: 'Hey, I\'m LeBron. I\'m a web developer and designer building things people love.'
-}
+  title: 'Brandon Rubio - Web Developer',
+  description:
+    "Hi, I'm Brandon. I'm a Computer Science student interested in Full Stack Development"
+};
 
 export const hero = {
-  title: "Hey there! I'm LeBron James.",
-  desc: "I'm a web developer and designer building things people love."
+  title: "Hi, I'm Brandon. Welcome to my site!",
+  desc: "I'm a Computer Science student at the University of Central Florida. I'm currently working on Full Stack Development."
 };
 
 export const projects = {
@@ -13,45 +14,38 @@ export const projects = {
   desc: "Here are some of my favorite projects that I've worked on.",
   projects: [
     {
-      title: 'Lakers Official',
-      description: 'Home to the Los-Angeles Lakers',
-      link: 'https://lakers.com',
-      github: ''
+      title: 'Pathfinding Visualizer',
+      description:
+        'A tool for visualizing pathfinding utilizing the breadth first search algorithm',
+      link: 'https://saxolandon.github.io/pathfinding-visualizer',
+      github: 'saxolandon/pathfinding-visualizer'
     },
     {
-      title: 'Cool App',
-      description: 'A cool app!',
-      link: 'https://lebronscoolapp.com',
-      github: 'theking-lbj/cool-app'
+      title: 'Whaddaya Wanna Eat?',
+      description: 'A mobile application that helps users decide where to eat',
+      github: 'Monstarules/whaddaya-wanna-eat'
     },
     {
-      title: 'Another app',
-      description: 'Another app!',
-      link: 'https://anotherlebronapp.com',
-      github: 'theking-lbj/another-app'
+      title: 'HLTV API',
+      description:
+        'A web scraping api for the popular CS:GO news site hltv.org',
+      github: 'saxolandon/hltv-api'
+    },
+    {
+      title: 'Sorting Visualizer',
+      description:
+        'A tool for visualizing the bubble, selection, insertion, and quick sort algorithms',
+      github: 'saxolandon/sorting-visualizer'
+    },
+    {
+      title: 'Porfolio',
+      description: 'The source code for this website',
+      github: 'saxolandon/portfolio'
     }
   ]
 };
 
-export const stack = {
-  title: 'My Stack',
-  stack: [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'Typescript',
-    'React',
-    'NextJS',
-    'TailwindCSS',
-    'Firebase',
-    'Git'
-  ]
-};
-
 export const contact = {
-  title: 'Contact Me',
-  email: 'lebron@gmail.com',
-  github: 'theking-lbj',
-  dribbble: 'theking-lbj',
-  linkedin: 'theking-lbj'
+  github: 'saxolandon',
+  linkedin: 'brandon-rubio64'
 };
