@@ -33,8 +33,11 @@ export default function Projects() {
                       height={18}
                       alt="Link icon"
                     />
-                    <span className="ml-2  text-lightText  transition-colors duration-500">
+                    <span className="mobile-link ml-2  text-lightText transition-colors duration-500">
                       {item.link}
+                    </span>
+                    <span className="non-mobile-link ml-2 text-lightText transition-colors duration-500">
+                      website
                     </span>
                   </a>
                 )}
@@ -51,8 +54,11 @@ export default function Projects() {
                       height={18}
                       alt="Link icon"
                     />
-                    <span className="ml-2  text-lightText  transition-colors duration-500">
+                    <span className="mobile-link ml-2 text-lightText transition-colors duration-500">
                       {item.github}
+                    </span>
+                    <span className="non-mobile-link ml-2 text-lightText transition-colors duration-500">
+                      source
                     </span>
                   </a>
                 )}
