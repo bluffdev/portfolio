@@ -18,34 +18,37 @@ export const projects = {
       description:
         'A tool for visualizing pathfinding utilizing the breadth first search algorithm',
       link: 'pathfindingvisualizer.vercel.app/',
-      github: 'saxolandon/pathfinding-visualizer'
+      github: 'trafguy/pathfinding-visualizer'
     },
     {
-      title: 'Whaddaya Wanna Eat?',
-      description: 'A mobile application that helps users decide where to eat',
-      github: 'Monstarules/whaddaya-wanna-eat'
-    },
-    {
-      title: 'HLTV API',
+      title: 'Chip8 Interpreter',
       description:
-        'A web scraping api for the popular CS:GO news site hltv.org',
-      github: 'saxolandon/hltv-api'
+        'An application for running chip8 roms in the browser',
+      link: 'chip8-interpreter.vercel.app/',
+      github: 'trafguy/chip8-interpreter'
     },
     {
       title: 'Sorting Visualizer',
       description:
         'A tool for visualizing the bubble, selection, insertion, and quick sort algorithms',
-      github: 'saxolandon/sorting-visualizer'
+      link: 'thesortingvisualizer.vercel.app/',
+      github: 'trafguy/sorting-visualizer'
+    },
+    {
+      title: 'HLTV API',
+      description:
+        'A web scraping api for the popular CS:GO news site hltv.org',
+      github: 'trafguy/hltv-api'
     },
     {
       title: 'Porfolio',
       description: 'The source code for this website',
-      github: 'saxolandon/portfolio'
+      github: 'trafguy/portfolio'
     }
   ]
 };
 
 export const contact = {
-  github: 'saxolandon',
+  github: 'trafguy',
   linkedin: 'brandon-rubio64'
 };
