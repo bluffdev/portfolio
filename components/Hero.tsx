@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="mb-16">
       <div className="flex flex-row items-center justify-between w-full">
         <div className="flex items-center w-25 h-20 relative overflow-hidden">
-          <h1 className="text-2xl">Brandon Rubio</h1>
+          <h1 className="text-2xl">bluff.dev</h1>
         </div>
         <div className="flex space-x-4 mt-0 text-lightText transition-colors duration-500">
           {contact.github && (
